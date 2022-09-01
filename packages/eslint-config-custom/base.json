@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": ["sandbox/base", "sandbox/jest", "sandbox/prettier"],
+  "rules": {
+    "@typescript-eslint/no-floating-promises": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/setupTests.ts"] }
+    ],
+    "import/prefer-default-export": "off"
+  }
+}

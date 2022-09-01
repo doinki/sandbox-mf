@@ -1,0 +1,4 @@
+{
+  "*.@(j|t)s?(x)": "yarn eslint --fix",
+  "*.json": "yarn prettier --write"
+}

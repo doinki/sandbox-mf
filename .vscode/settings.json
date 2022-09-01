@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "search.exclude": { "**/.pnp.*": true, "**/.yarn": true },
+  "tailwindCSS.experimental.classRegex": [
+    "ClassName\\s*[:=]\\s*[\"'`](.*)[\"'`]"
+  ]
+}

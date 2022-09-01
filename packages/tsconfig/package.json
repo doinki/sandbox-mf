@@ -1,0 +1,12 @@
+{
+  "exports": {
+    "./base": "./base.json",
+    "./react": "./react.json",
+    "./package.json": "./package.json"
+  },
+  "name": "tsconfig",
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
